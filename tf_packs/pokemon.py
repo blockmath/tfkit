@@ -1,0 +1,12 @@
+from packs import *
+from tf_packs.default import tics_simple_speech_repl
+
+forms.append(TFState("bulbasaur", "Bulbasaur", "https://static1.e621.net/data/d1/4f/d14fb53766ec4d3ea0873a3b365cd0c5.jpg", "#89C893", tics_simple_speech_repl({0.25: "Bul", 0.25: "ba", 0.25: "saur", 0.15: "bulba", 0.1: "Bulbasaur"}), "__user__ transformed into a Bulbasaur!"))
+forms.append(TFState("ivysaur", "Ivysaur", "https://static1.e621.net/data/07/76/0776c49c3f67305033ff69615f5d96b6.png", "#89C893", tics_simple_speech_repl({0.1: "I", 0.25: "vy", 0.25: "saur", 0.3: "Ivy", 0.1: "Ivysaur"}), "__user__ transformed into an Ivysaur!"))
+forms.append(TFState("venusaur", "Venusaur", "https://static1.e621.net/data/ae/42/ae42ebd305697449b209a091293928cc.jpg", "#89C893", tics_simple_speech_repl({0.25: "Ven", 0.25: "nu", 0.25: "saur", 0.15: "Venu", 0.1: "Venusaur"}), "__user__ transformed into a Venusaur!"))
+forms.append(TFState("charmander", "Charmander", "https://static1.e621.net/data/c7/d9/c7d9c31295ff4447a7cdbf9de5d713a3.png", "#FFA500", tics_simple_speech_repl({0.25: "Char", 0.25: "man", 0.25: "der", 0.15: "mander", 0.1: "Charmander"}), "__user__ transformed into a Charmander!"))
+forms.append(TFState("charmeleon", "Charmeleon", "https://static1.e621.net/data/d8/24/d8240e2bd1b3a42f0b847c2c71555e45.png", "#FFA500", tics_simple_speech_repl({0.25: "Char", 0.25: "mel", 0.25: "leon", 0.15: "meleon", 0.1: "Charmeleon"}), "__user__ transformed into a Charmeleon!"))
+forms.append(TFState("charizard", "Charizard", "https://static1.e621.net/data/59/e4/59e4647702ba0bfc282f93c7f4dc0c8e.png", "#FFA500", tics_simple_speech_repl({0.25: "Char", 0.25: "ari", 0.25: "zard", 0.15: "Chari", 0.1: "Charizard"}), "__user__ transformed into a Charizard!"))
+forms.append(TFState("squirtle", "Squirtle", "https://static1.e621.net/data/23/46/2346d45b33b2bbab5b4b405ead6bcb34.png", "#A2D7D5", tics_simple_speech_repl({0.25: "Squi", 0.35: "Squirt", 0.4: "Squirtle"}), "__user__ transformed into a Squirtle!"))
+forms.append(TFState("wartortle", "Wartortle", "https://static1.e621.net/data/ae/92/ae927c794d497c2d4ab79cbbb76054ea.png", "#A2D7D5", tics_simple_speech_repl({0.25: "War", 0.3: "tort", 0.35: "tortle", 0.1: "Wartortle"}), "__user__ transformed into a Wartortle!"))
+forms.append(TFState("blastoise", "Blastoise", "https://static1.e621.net/data/6c/cc/6ccc781d39fd53a2162b5046771fe26b.png", "#A2D7D5", tics_simple_speech_repl({0.15: "Blaa", 0.35: "Blast", 0.3: "toise", 0.1: "Blas", 0.1: "Blastoise"}), "__user__ transformed into a Blastoise!"))
